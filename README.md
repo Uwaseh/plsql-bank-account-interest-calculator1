@@ -171,24 +171,6 @@ Total Interest = Sum of all monthly interests
 - Month 2: 500,000 × 0.6 / 100 = 3,000
 - Total: 18,000 RWF
 
-## Key Learning Points
 
-1. **Collections Management**: Demonstrates three types of PL/SQL collections with different use cases
-2. **Cursor Processing**: Efficient row-by-row data processing with explicit cursors
-3. **Type Anchoring**: Using `%TYPE` ensures data type consistency with database columns
-4. **Data Validation**: Business logic to skip invalid records
-5. **Dynamic Arrays**: Using `EXTEND` and `DELETE` methods for nested table manipulation
-6. **Control Flow**: Practical use of GOTO for exception scenarios
 
-## Notes
 
-- Interest calculations are simplified for demonstration purposes
-- In production systems, GOTO statements are generally discouraged in favor of structured programming
-- The `SET SERVEROUTPUT ON SIZE 1000000` command ensures sufficient buffer for output display
-- All monetary values are assumed to be in Rwandan Francs (RWF)
-
-## Author
-Bank Account Interest Calculator - PL/SQL Demonstration Project
-
-## License
-Educational/Demonstration purposes
